@@ -1,0 +1,22 @@
+package com.tnsif.collections;
+
+
+
+	import java.util.*;
+
+	public class SortedSetDemo{
+	    public static void main(String[] args) {
+	        SortedSet<String> names = new TreeSet<>();
+
+	        names.add("Zara");
+	        names.add("Bob");
+	        names.add("Alice");
+
+	        System.out.println("SortedSet (ascending order): " + names);
+	        System.out.println("First: " + names.first());
+	        System.out.println("Last: " + names.last());
+	    }
+	}
+
+
+	
