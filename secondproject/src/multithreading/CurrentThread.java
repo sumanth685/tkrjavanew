@@ -16,7 +16,7 @@ public class CurrentThread {
 	        t.setName("MyMainThread");
 	        t.setPriority(Thread.MAX_PRIORITY);
 
-	        System.out.println("\nAfter changes:");
+	         System.out.println("\nAfter changes:");
 	        System.out.println("Thread Name   : " + t.getName());
 	        System.out.println("Thread Priority: " + t.getPriority());
 
